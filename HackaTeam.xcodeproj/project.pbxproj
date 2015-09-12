@@ -13,6 +13,7 @@
 		26F919331BA48047009E9E1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F919321BA48047009E9E1A /* Images.xcassets */; };
 		26F919361BA48047009E9E1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F919341BA48047009E9E1A /* LaunchScreen.xib */; };
 		26F919421BA48048009E9E1A /* HackaTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F919411BA48048009E9E1A /* HackaTeamTests.swift */; };
+		77D1C6558EBE3BDE210A48C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC35465977FE331C97E5637A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 		26F9193B1BA48048009E9E1A /* HackaTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackaTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F919401BA48048009E9E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26F919411BA48048009E9E1A /* HackaTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTeamTests.swift; sourceTree = "<group>"; };
+		45B7ED5A37A615C485AEC7B5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C51C2F86ECDBC746D517C503 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FC35465977FE331C97E5637A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D1C6558EBE3BDE210A48C8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 				26F919281BA48047009E9E1A /* HackaTeam */,
 				26F9193E1BA48048009E9E1A /* HackaTeamTests */,
 				26F919271BA48047009E9E1A /* Products */,
+				6ABCD7EB8F831BED8C626D30 /* Pods */,
+				CBA489199E0FB7BE241B5D30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +119,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6ABCD7EB8F831BED8C626D30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C51C2F86ECDBC746D517C503 /* Pods.debug.xcconfig */,
+				45B7ED5A37A615C485AEC7B5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBA489199E0FB7BE241B5D30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC35465977FE331C97E5637A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26F919451BA48048009E9E1A /* Build configuration list for PBXNativeTarget "HackaTeam" */;
 			buildPhases = (
+				5468A5069A9F13C62ED3AC5F /* Check Pods Manifest.lock */,
 				26F919221BA48047009E9E1A /* Sources */,
 				26F919231BA48047009E9E1A /* Frameworks */,
 				26F919241BA48047009E9E1A /* Resources */,
+				80D33FD2022A8AFFF06CA5BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +232,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5468A5069A9F13C62ED3AC5F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80D33FD2022A8AFFF06CA5BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26F919221BA48047009E9E1A /* Sources */ = {
@@ -340,6 +399,7 @@
 		};
 		26F919461BA48048009E9E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51C2F86ECDBC746D517C503 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HackaTeam/Info.plist;
@@ -350,6 +410,7 @@
 		};
 		26F919471BA48048009E9E1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B7ED5A37A615C485AEC7B5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HackaTeam/Info.plist;
@@ -411,6 +472,7 @@
 				26F919471BA48048009E9E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26F919481BA48048009E9E1A /* Build configuration list for PBXNativeTarget "HackaTeamTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +481,7 @@
 				26F9194A1BA48048009E9E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

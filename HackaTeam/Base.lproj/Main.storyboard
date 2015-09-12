@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HackaTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +15,46 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K2V-sN-f1A">
+                                <rect key="frame" x="251" y="189" width="98" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="754-W4-y90">
+                                <rect key="frame" x="251" y="243" width="98" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7No-G9-9xp">
+                                <rect key="frame" x="251" y="298" width="98" height="30"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pms-WR-cw1"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="7No-G9-9xp" secondAttribute="centerY" constant="-13" id="4Jb-AQ-hQ4"/>
+                            <constraint firstAttribute="centerX" secondItem="754-W4-y90" secondAttribute="centerX" id="4o3-04-oRa"/>
+                            <constraint firstItem="7No-G9-9xp" firstAttribute="top" secondItem="754-W4-y90" secondAttribute="bottom" constant="25" id="ZC7-ak-VOJ"/>
+                            <constraint firstAttribute="centerY" secondItem="754-W4-y90" secondAttribute="centerY" constant="42" id="c4H-71-rBL"/>
+                            <constraint firstAttribute="centerY" secondItem="7No-G9-9xp" secondAttribute="centerY" constant="-13" id="e5V-Eu-xrm"/>
+                            <constraint firstItem="7No-G9-9xp" firstAttribute="top" secondItem="754-W4-y90" secondAttribute="bottom" constant="25" id="eRH-Rn-nm5"/>
+                            <constraint firstItem="754-W4-y90" firstAttribute="top" secondItem="K2V-sN-f1A" secondAttribute="bottom" constant="24" id="g2a-L6-GjT"/>
+                            <constraint firstAttribute="centerX" secondItem="K2V-sN-f1A" secondAttribute="centerX" id="j1U-kT-03b"/>
+                            <constraint firstItem="754-W4-y90" firstAttribute="top" secondItem="K2V-sN-f1A" secondAttribute="bottom" constant="24" id="s6c-9N-IoP"/>
+                            <constraint firstAttribute="centerY" secondItem="K2V-sN-f1A" secondAttribute="centerY" constant="96" id="sRv-fn-xt1"/>
+                            <constraint firstAttribute="centerX" secondItem="7No-G9-9xp" secondAttribute="centerX" id="ws2-uX-1lg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="K2V-sN-f1A" id="dyX-er-quu"/>
+                        <outlet property="password" destination="754-W4-y90" id="GDR-LU-4hW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
