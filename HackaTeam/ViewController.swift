@@ -13,20 +13,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
 
-    @IBAction func signUp(sender: UIButton) {
-        var ref = Firebase(url:"https://hackateam.firebaseio.com/")
-        ref.createUser(email.text, password: password.text,
-            withValueCompletionBlock: { error, result in
+
+    @IBAction func signIn(sender: UIButton) {
+        let ref = Firebase(url: "https://hackateam.firebaseio.com/")
+        ref.authUser(email.text, password: password.text,
+            withCompletionBlock: { error, authData in
                 if error != nil {
-                    // There was an error creating the account
-                    //hi
+                    // There was an error logging in to this account
+                    
+
                 } else {
-                    let uid = result["uid"] as? String
-                    println("Successfully created user account with uid: \(uid)")
+                    // We are now logged in
+                    print("Log in successful")
                 }
         })
-        
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
