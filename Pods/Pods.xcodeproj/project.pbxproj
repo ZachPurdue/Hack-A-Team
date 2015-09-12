@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19EE21561281E5F5C0B5A85CFDC1A411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380148C94F168A4A9CDF443A21808C88 /* Foundation.framework */; };
+		369FA216B05B4E1A79E4B65C5538E07D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380148C94F168A4A9CDF443A21808C88 /* Foundation.framework */; };
+		59FB77C1DCA5929787112B22E80A8805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380148C94F168A4A9CDF443A21808C88 /* Foundation.framework */; };
+		B08C52CFD8B540C44D9D949D43BD9DBC /* Pods-HackaTeamTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7D31C2137B4AC98A05B3D2BE6AC2CC /* Pods-HackaTeamTests-dummy.m */; };
+		B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */; };
+		E9ADE1FDBFAE7B48A65170E27207EAA9 /* Pods-HackaTeam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E0C4F96ECD4374F585B94BCC28DF /* Pods-HackaTeam-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24AF56F95DFBE57476F5D02EB2393BBE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		299B45A5AF6DCB5E47F87F8824EC92DC /* libPods-HackaTeamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackaTeamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33575AB8B19D9E1DACC3CE60272B2D77 /* Pods-HackaTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackaTeam.debug.xcconfig"; sourceTree = "<group>"; };
+		380148C94F168A4A9CDF443A21808C88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4AA54B1821895D3F9396BE8F801FF2F5 /* Pods-HackaTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackaTeam.release.xcconfig"; sourceTree = "<group>"; };
+		54F4D00707B9BC8CC3D977AFA7B9230A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		5C95BEE4E19B4F70C0FFA36F23851F6A /* libPods-HackaTeam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackaTeam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8CE0D56528D162E288CB791E811624 /* Pods-HackaTeamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackaTeamTests.release.xcconfig"; sourceTree = "<group>"; };
+		817A93630D63CB1B0B24A74E07110802 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86094090CF6FB0732ADD762A39EFBD65 /* Pods-HackaTeam-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackaTeam-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A7D31C2137B4AC98A05B3D2BE6AC2CC /* Pods-HackaTeamTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackaTeamTests-dummy.m"; sourceTree = "<group>"; };
+		9E9B07893633F264E467B6C98FEE28E9 /* Pods-HackaTeam-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackaTeam-resources.sh"; sourceTree = "<group>"; };
+		AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF482E298DD8E6693175AC52C4B260EF /* Pods-HackaTeamTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackaTeamTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D292E0C4F96ECD4374F585B94BCC28DF /* Pods-HackaTeam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackaTeam-dummy.m"; sourceTree = "<group>"; };
+		D94F6BC5F6400F96B0E8DB170FFBDDAE /* Pods-HackaTeamTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackaTeamTests-resources.sh"; sourceTree = "<group>"; };
+		DAF84D3BD1D970262C44573AED00EEC8 /* Pods-HackaTeamTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackaTeamTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCEE60B36A4C5ABBCE300C75E9C12CC9 /* Pods-HackaTeamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackaTeamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFA1520B749F6B6BC9EDF13F01CAA970 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		E0CB122DFE4575483FAAA9FF29A4A050 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB2ECAE058DCAAD9BA4478854B83430F /* Pods-HackaTeam-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackaTeam-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EE21561281E5F5C0B5A85CFDC1A411 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C387B10CF682E0915234EC07ABC59771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369FA216B05B4E1A79E4B65C5538E07D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD53FE781D6874AB29B7F0C090FB8093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FB77C1DCA5929787112B22E80A8805 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				380148C94F168A4A9CDF443A21808C88 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D844159284E9E994EDE0118DB657F05 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B2AA6FC8E8E8924978848521E67A3B1A /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				FE3CAE50BB17F93E8C6A7649EC8B823E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A86E722A5503E26A4283D55A365056BE /* Pods-HackaTeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF482E298DD8E6693175AC52C4B260EF /* Pods-HackaTeamTests-acknowledgements.markdown */,
+				DAF84D3BD1D970262C44573AED00EEC8 /* Pods-HackaTeamTests-acknowledgements.plist */,
+				9A7D31C2137B4AC98A05B3D2BE6AC2CC /* Pods-HackaTeamTests-dummy.m */,
+				D94F6BC5F6400F96B0E8DB170FFBDDAE /* Pods-HackaTeamTests-resources.sh */,
+				DCEE60B36A4C5ABBCE300C75E9C12CC9 /* Pods-HackaTeamTests.debug.xcconfig */,
+				5F8CE0D56528D162E288CB791E811624 /* Pods-HackaTeamTests.release.xcconfig */,
+			);
+			name = "Pods-HackaTeamTests";
+			path = "Target Support Files/Pods-HackaTeamTests";
+			sourceTree = "<group>";
+		};
+		B2AA6FC8E8E8924978848521E67A3B1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D844159284E9E994EDE0118DB657F05 /* Firebase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */,
+				5C95BEE4E19B4F70C0FFA36F23851F6A /* libPods-HackaTeam.a */,
+				299B45A5AF6DCB5E47F87F8824EC92DC /* libPods-HackaTeamTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2345BBF0EDE88F70D4760EFE7F431F3 /* Pods-HackaTeam */ = {
+			isa = PBXGroup;
+			children = (
+				EB2ECAE058DCAAD9BA4478854B83430F /* Pods-HackaTeam-acknowledgements.markdown */,
+				86094090CF6FB0732ADD762A39EFBD65 /* Pods-HackaTeam-acknowledgements.plist */,
+				D292E0C4F96ECD4374F585B94BCC28DF /* Pods-HackaTeam-dummy.m */,
+				9E9B07893633F264E467B6C98FEE28E9 /* Pods-HackaTeam-resources.sh */,
+				33575AB8B19D9E1DACC3CE60272B2D77 /* Pods-HackaTeam.debug.xcconfig */,
+				4AA54B1821895D3F9396BE8F801FF2F5 /* Pods-HackaTeam.release.xcconfig */,
+			);
+			name = "Pods-HackaTeam";
+			path = "Target Support Files/Pods-HackaTeam";
+			sourceTree = "<group>";
+		};
+		D9303696A8153603D74E46A34B5A5E25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				817A93630D63CB1B0B24A74E07110802 /* Pods-acknowledgements.markdown */,
+				E0CB122DFE4575483FAAA9FF29A4A050 /* Pods-acknowledgements.plist */,
+				F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */,
+				DFA1520B749F6B6BC9EDF13F01CAA970 /* Pods-resources.sh */,
+				24AF56F95DFBE57476F5D02EB2393BBE /* Pods.debug.xcconfig */,
+				54F4D00707B9BC8CC3D977AFA7B9230A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		FE3CAE50BB17F93E8C6A7649EC8B823E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9303696A8153603D74E46A34B5A5E25 /* Pods */,
+				D2345BBF0EDE88F70D4760EFE7F431F3 /* Pods-HackaTeam */,
+				A86E722A5503E26A4283D55A365056BE /* Pods-HackaTeamTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1469924FC52F60B0068FA24EEFCB3EFC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				60DB2522D6809309FA2F3B04848E7536 /* Sources */,
+				2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		652E6022F18E2911A44833634E5695EF /* Pods-HackaTeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E2DB3A0B1CF82962525C42DC01003A /* Build configuration list for PBXNativeTarget "Pods-HackaTeamTests" */;
+			buildPhases = (
+				385E7705532180F14328E71BBF0C5073 /* Sources */,
+				C387B10CF682E0915234EC07ABC59771 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HackaTeamTests";
+			productName = "Pods-HackaTeamTests";
+			productReference = 299B45A5AF6DCB5E47F87F8824EC92DC /* libPods-HackaTeamTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D481CC22162BB18CA4C5D43220E30023 /* Pods-HackaTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9926E808377A6D2AEB3CD0D7219D02 /* Build configuration list for PBXNativeTarget "Pods-HackaTeam" */;
+			buildPhases = (
+				F0CF85F481BB0FA68EA09C2726F0BCE5 /* Sources */,
+				DD53FE781D6874AB29B7F0C090FB8093 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HackaTeam";
+			productName = "Pods-HackaTeam";
+			productReference = 5C95BEE4E19B4F70C0FFA36F23851F6A /* libPods-HackaTeam.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1469924FC52F60B0068FA24EEFCB3EFC /* Pods */,
+				D481CC22162BB18CA4C5D43220E30023 /* Pods-HackaTeam */,
+				652E6022F18E2911A44833634E5695EF /* Pods-HackaTeamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385E7705532180F14328E71BBF0C5073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08C52CFD8B540C44D9D949D43BD9DBC /* Pods-HackaTeamTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DB2522D6809309FA2F3B04848E7536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CF85F481BB0FA68EA09C2726F0BCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ADE1FDBFAE7B48A65170E27207EAA9 /* Pods-HackaTeam-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F430D6983B39BE4ED03EEE16760BF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AF56F95DFBE57476F5D02EB2393BBE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74CEA756C10E7D8A67514D399D5DD732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCEE60B36A4C5ABBCE300C75E9C12CC9 /* Pods-HackaTeamTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		758BA249728DF4BCE0F6A9E639512B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8CE0D56528D162E288CB791E811624 /* Pods-HackaTeamTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8076950426476AAC5610B60F115D0D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA54B1821895D3F9396BE8F801FF2F5 /* Pods-HackaTeam.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9D6267394C7B3BE770B011D3860A3DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F4D00707B9BC8CC3D977AFA7B9230A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E11140C6E9BBF979C067657DF447F2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33575AB8B19D9E1DACC3CE60272B2D77 /* Pods-HackaTeam.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E2DB3A0B1CF82962525C42DC01003A /* Build configuration list for PBXNativeTarget "Pods-HackaTeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CEA756C10E7D8A67514D399D5DD732 /* Debug */,
+				758BA249728DF4BCE0F6A9E639512B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F430D6983B39BE4ED03EEE16760BF29 /* Debug */,
+				9D6267394C7B3BE770B011D3860A3DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9926E808377A6D2AEB3CD0D7219D02 /* Build configuration list for PBXNativeTarget "Pods-HackaTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11140C6E9BBF979C067657DF447F2B3 /* Debug */,
+				8076950426476AAC5610B60F115D0D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
