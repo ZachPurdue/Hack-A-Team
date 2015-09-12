@@ -18,6 +18,11 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var passwordRepeat: UITextField!
     @IBOutlet weak var school: UITextField!
     
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
     func addUser(){
         let ref = Firebase(url: "https://hackateam.firebaseio.com/")
         ref.createUser(email.text, password: password.text,
@@ -43,8 +48,15 @@ class SignUpViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        var tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "DismissKeyboard")
+        view.addGestureRecognizer(tap)
         // Do any additional setup after loading the view.
+    }
+    
+    func DismissKeyboard(){
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
     }
 
     override func didReceiveMemoryWarning() {

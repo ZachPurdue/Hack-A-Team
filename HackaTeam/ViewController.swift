@@ -32,14 +32,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var myRootRef = Firebase(url:"https://hackateam.firebaseio.com/")
-        var alanisawesome = ["full_name": "Alan Turing", "date_of_birth": "June 23, 1912"]
-        var gracehop = ["full_name": "Grace Hopper", "date_of_birth": "December 9, 1906"]
-        
-        var usersRef = myRootRef.childByAppendingPath("users")
-        
-        var users = []
-        usersRef.setValue(users)
+        var tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "DismissKeyboard")
+        view.addGestureRecognizer(tap)
+    }
+    
+    func DismissKeyboard(){
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
     }
 
     override func didReceiveMemoryWarning() {

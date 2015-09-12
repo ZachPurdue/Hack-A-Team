@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HackaTeam/SignUpViewController.swift"
-            timestampString = "463793506.084416"
+            timestampString = "463793881.458604"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "addUser()"
             landmarkType = "5">
          </BreakpointContent>
