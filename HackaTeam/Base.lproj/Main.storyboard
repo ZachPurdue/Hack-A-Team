@@ -17,44 +17,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TO7-Fr-s3b">
-                                <rect key="frame" x="16" y="0.0" width="568" height="30"/>
-                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TO7-Fr-s3b">
+                                <rect key="frame" x="16" y="20" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ha-dw-2th">
-                                <rect key="frame" x="16" y="187" width="568" height="30"/>
-                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ha-dw-2th">
+                                <rect key="frame" x="16" y="178" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password (repeat)" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UY0-mv-MEo">
-                                <rect key="frame" x="16" y="310" width="568" height="30"/>
-                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password (repeat)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UY0-mv-MEo">
+                                <rect key="frame" x="16" y="282" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="School" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vV4-aA-5dq">
-                                <rect key="frame" x="16" y="383" width="568" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="568" id="mRi-XP-zdm"/>
-                                </constraints>
-                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email (repeat)" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wm4-sU-0rz">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email (repeat)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wm4-sU-0rz">
                                 <rect key="frame" x="16" y="124" width="568" height="30"/>
-                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RJ0-uA-UG7">
-                                <rect key="frame" x="16" y="62" width="568" height="30"/>
-                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RJ0-uA-UG7">
+                                <rect key="frame" x="16" y="70" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4Q-Ol-h4D">
                                 <rect key="frame" x="521" y="549" width="63" height="30"/>
@@ -80,32 +66,41 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="HgP-PD-7BD"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="School" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vV4-aA-5dq">
+                                <rect key="frame" x="16" y="338" width="568" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="568" id="mRi-XP-zdm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="pev-xc-Fcu" secondAttribute="bottom" constant="20" symbolic="YES" id="6jZ-oR-eaH"/>
-                            <constraint firstItem="wm4-sU-0rz" firstAttribute="top" secondItem="RJ0-uA-UG7" secondAttribute="bottom" constant="32" id="7xr-s4-xSf"/>
+                            <constraint firstItem="wm4-sU-0rz" firstAttribute="top" secondItem="RJ0-uA-UG7" secondAttribute="bottom" constant="24" id="7xr-s4-xSf"/>
                             <constraint firstItem="vV4-aA-5dq" firstAttribute="leading" secondItem="RJ0-uA-UG7" secondAttribute="leading" id="BsL-5a-NeD"/>
-                            <constraint firstItem="0ha-dw-2th" firstAttribute="top" secondItem="wm4-sU-0rz" secondAttribute="bottom" constant="33" id="C2A-IQ-I7S"/>
+                            <constraint firstItem="0ha-dw-2th" firstAttribute="top" secondItem="wm4-sU-0rz" secondAttribute="bottom" constant="24" id="C2A-IQ-I7S"/>
                             <constraint firstItem="vV4-aA-5dq" firstAttribute="leading" secondItem="UU9-Oy-qTB" secondAttribute="leadingMargin" id="GAN-UD-Vdq"/>
-                            <constraint firstAttribute="bottom" secondItem="vV4-aA-5dq" secondAttribute="bottom" constant="187" id="MtR-p4-79Q"/>
+                            <constraint firstAttribute="bottom" secondItem="vV4-aA-5dq" secondAttribute="bottom" constant="232" id="MtR-p4-79Q"/>
                             <constraint firstItem="vV4-aA-5dq" firstAttribute="leading" secondItem="wm4-sU-0rz" secondAttribute="leading" id="NVE-YI-LpY"/>
                             <constraint firstItem="V4Q-Ol-h4D" firstAttribute="trailing" secondItem="RJ0-uA-UG7" secondAttribute="trailing" id="OCN-4S-t1h"/>
                             <constraint firstItem="vV4-aA-5dq" firstAttribute="leading" secondItem="TO7-Fr-s3b" secondAttribute="leading" id="QnG-II-Qfw"/>
                             <constraint firstItem="V4Q-Ol-h4D" firstAttribute="trailing" secondItem="wm4-sU-0rz" secondAttribute="trailing" id="RdT-wx-npt"/>
                             <constraint firstItem="V4Q-Ol-h4D" firstAttribute="trailing" secondItem="UY0-mv-MEo" secondAttribute="trailing" id="ZdH-op-Yj9"/>
                             <constraint firstItem="pev-xc-Fcu" firstAttribute="leading" secondItem="vV4-aA-5dq" secondAttribute="leading" id="aME-0n-tCT"/>
-                            <constraint firstItem="vV4-aA-5dq" firstAttribute="top" secondItem="UY0-mv-MEo" secondAttribute="bottom" constant="43" id="dHU-FF-M4f"/>
+                            <constraint firstItem="vV4-aA-5dq" firstAttribute="top" secondItem="UY0-mv-MEo" secondAttribute="bottom" constant="26" id="dHU-FF-M4f"/>
                             <constraint firstItem="b9U-Pt-55z" firstAttribute="top" secondItem="V4Q-Ol-h4D" secondAttribute="bottom" constant="21" id="epJ-VX-7ND"/>
                             <constraint firstItem="V4Q-Ol-h4D" firstAttribute="trailing" secondItem="UU9-Oy-qTB" secondAttribute="trailingMargin" id="iLu-zq-1V3"/>
-                            <constraint firstItem="RJ0-uA-UG7" firstAttribute="top" secondItem="TO7-Fr-s3b" secondAttribute="bottom" constant="32" id="kZo-nx-fSt"/>
+                            <constraint firstItem="RJ0-uA-UG7" firstAttribute="top" secondItem="TO7-Fr-s3b" secondAttribute="bottom" constant="20" id="kZo-nx-fSt"/>
                             <constraint firstItem="V4Q-Ol-h4D" firstAttribute="trailing" secondItem="0ha-dw-2th" secondAttribute="trailing" id="nAx-Pa-sXB"/>
                             <constraint firstItem="vV4-aA-5dq" firstAttribute="leading" secondItem="UY0-mv-MEo" secondAttribute="leading" id="qSm-Jc-OVZ"/>
-                            <constraint firstItem="TO7-Fr-s3b" firstAttribute="top" secondItem="UU9-Oy-qTB" secondAttribute="top" id="t3E-rH-42H"/>
+                            <constraint firstItem="TO7-Fr-s3b" firstAttribute="top" secondItem="UU9-Oy-qTB" secondAttribute="top" constant="20" id="t3E-rH-42H"/>
                             <constraint firstItem="V4Q-Ol-h4D" firstAttribute="trailing" secondItem="TO7-Fr-s3b" secondAttribute="trailing" id="wTg-Oj-89j"/>
                             <constraint firstItem="vV4-aA-5dq" firstAttribute="leading" secondItem="0ha-dw-2th" secondAttribute="leading" id="yxy-It-Z2N"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C2j-hx-Uxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -123,11 +118,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="754-W4-y90">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="754-W4-y90">
                                 <rect key="frame" x="137" y="243" width="327" height="30"/>
-                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0N-ru-iIe">
                                 <rect key="frame" x="255" y="302" width="91" height="30"/>
@@ -142,14 +136,13 @@
                                     <segue destination="Uct-zn-1pK" kind="show" id="6E9-V8-ihj"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K2V-sN-f1A">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K2V-sN-f1A">
                                 <rect key="frame" x="137" y="187" width="327" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="327" id="PkF-vY-zNz"/>
                                 </constraints>
-                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhA-pq-uN2">
                                 <rect key="frame" x="184" y="439" width="232" height="30"/>
@@ -374,7 +367,7 @@
         <scene sceneID="nPK-bO-gcA">
             <objects>
                 <tabBarController title="New Account" id="yzg-ZR-5dh" sceneMemberID="viewController">
-                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="h8Z-7m-E84">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -512,9 +505,9 @@
         <segue reference="LLY-du-KW4"/>
         <segue reference="WIl-IU-LO2"/>
         <segue reference="Ntr-qG-b6g"/>
-        <segue reference="oF6-wj-0hw"/>
-        <segue reference="ay4-mv-EJg"/>
-        <segue reference="QwQ-yb-a5e"/>
+        <segue reference="HgP-PD-7BD"/>
         <segue reference="6E9-V8-ihj"/>
+        <segue reference="QwQ-yb-a5e"/>
+        <segue reference="ay4-mv-EJg"/>
     </inferredMetricsTieBreakers>
 </document>
