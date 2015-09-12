@@ -28,39 +28,18 @@ class SignUpViewController: UIViewController {
                 } else {
                     let uid = result["uid"] as? String
                     println("Successfully created user account with uid: \(uid)")
+                    
+                    let postRef = ref.childByAppendingPath("users")
+                    let post1 = ["email": self.email.text, "name": self.name.text, "school": self.school.text]
+                    let post1Ref = postRef.childByAutoId()
+                    post1Ref.setValue(post1)
                 }
         })
     }
     
     @IBAction func create(sender: UIButton) {
-//        let ref = Firebase(url: "https://hackateam.firebaseio.com/")
-//        var entry = ["name": name.text, "school": school.text]
-//        var usersRef = ref.childByAppendingPath("users")
-//        var e = email.text
-//        var users = [e: entry]
-//        usersRef.setValue(users)
-        
-        
-        
         addUser()
         
-//        ref.createUser(email.text, password: password.text,
-//            withValueCompletionBlock: { error, result in
-//                if error != nil {
-//                    // There was an error creating the account
-//                    print("error creating account")
-//                } else {
-//                    let uid = result["uid"] as? String
-//                    println("Successfully created user account with uid: \(uid)")
-//                }
-        //})
-        
-        
-        //var entry = ["name": name.text, "school": school.text]
-        //var usersRef = ref.childByAppendingPath("users")
-        
-        //var users = [email.text: entry]
-        //usersRef.setValue(users)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
