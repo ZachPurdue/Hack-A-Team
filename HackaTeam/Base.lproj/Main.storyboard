@@ -327,7 +327,7 @@
         <scene sceneID="nPK-bO-gcA">
             <objects>
                 <tabBarController title="New Account" id="yzg-ZR-5dh" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="h8Z-7m-E84">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -436,7 +436,7 @@
         <scene sceneID="yP0-9H-yLL">
             <objects>
                 <tabBarController title="Existing Users" id="Uct-zn-1pK" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="hVG-Oo-ZPr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

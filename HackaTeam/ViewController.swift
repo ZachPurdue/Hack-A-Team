@@ -19,6 +19,7 @@ class ViewController: UIViewController {
             withValueCompletionBlock: { error, result in
                 if error != nil {
                     // There was an error creating the account
+                    //hi
                 } else {
                     let uid = result["uid"] as? String
                     println("Successfully created user account with uid: \(uid)")
