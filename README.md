@@ -4,8 +4,8 @@ This is an iOS app designed to match teamless users with similar interests, who 
 
 Technologies used:
 
-> iOS
-> Firebase
+ - iOS
+ - Firebase
 
 
 
