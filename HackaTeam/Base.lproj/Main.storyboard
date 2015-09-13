@@ -569,7 +569,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="286" id="Jqh-ff-Fej"/>
                                 </constraints>
-                                <string key="text">This app was created at MHacks VI, by Zach Perry and William Huang. It is intended to be used to find fellow hackers who are looking for a team with similar interests to the user. We thought it would be useful to have this app, because we noticed that there always seems to be teamless hackers scrambling to find a team before hacking begins. Rather than be stressed about potentially not finding a team, or joining a team that doesnt interest them, they can use Hack-A-Team to find like minded hackers to team up with.</string>
+                                <mutableString key="text">This app was created at MHacks VI by Zach Perry and William Huang. It is intended to be used to find fellow teamless hackers who are looking for other hackers with similar interests to the user. We thought it would be useful to have this app because we noticed that there always seems to be teamless hackers scrambling to find a team before hacking begins. Rather than be stressed about potentially not finding a team, or joining a team that doesnt interest them, they can use Hack-A-Team to find like-minded hackers to team up with.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -830,7 +830,7 @@
         <image name="zachprofile.png" width="291" height="291"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HgP-PD-7BD"/>
         <segue reference="rCP-0e-34w"/>
+        <segue reference="Ffg-MI-DR2"/>
     </inferredMetricsTieBreakers>
 </document>
