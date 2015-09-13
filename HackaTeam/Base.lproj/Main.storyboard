@@ -263,7 +263,7 @@
             <objects>
                 <tableViewController title="Dev Interests Checklist" id="lth-2R-ZfJ" customClass="InterestsTableViewController" customModule="HackaTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Jb1-ez-ZwE">
-                        <rect key="frame" x="0.0" y="64" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="44" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -288,6 +288,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Development Interests" image="devinterests.png" id="bsL-Wj-IBe"/>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qep-a0-0xa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -414,7 +415,7 @@
             <objects>
                 <tableViewController id="NI1-eO-aFT" customClass="LanguagesTableViewController" customModule="HackaTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="OjN-Qi-ZXH">
-                        <rect key="frame" x="0.0" y="64" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="44" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -439,6 +440,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Languages Checklist" image="languages.png" id="Da1-Lu-cyK"/>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WhI-q1-gZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -450,7 +452,7 @@
             <objects>
                 <tableViewController title="Skills Checklist" id="6y5-66-MLf" customClass="SkillsTableViewController" customModule="HackaTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Pd8-fb-olL">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="44" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -476,6 +478,7 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Skills Checklist" image="skillscheck.png" id="9zG-nm-VMd"/>
                     <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q59-hI-9BZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
