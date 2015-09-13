@@ -448,7 +448,7 @@
         <!--Skills Checklist-->
         <scene sceneID="vOd-C1-5Am">
             <objects>
-                <tableViewController title="Skills Checklist" id="6y5-66-MLf" sceneMemberID="viewController">
+                <tableViewController title="Skills Checklist" id="6y5-66-MLf" customClass="SkillsTableViewController" customModule="HackaTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Pd8-fb-olL">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

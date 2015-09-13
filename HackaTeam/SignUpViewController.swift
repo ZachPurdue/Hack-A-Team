@@ -17,6 +17,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var passwordRepeat: UITextField!
     @IBOutlet weak var school: UITextField!
+    var key = ""
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         self.view.endEditing(true)
@@ -37,15 +38,28 @@ class SignUpViewController: UIViewController {
                     let postRef = ref.childByAppendingPath("users")
                     let post1 = ["email": self.email.text, "name": self.name.text, "school": self.school.text]
                     let post1Ref = postRef.childByAutoId()
+                    //post1Ref is the key of the entry
                     post1Ref.updateChildValues(post1)
+                    
+                    
+                    self.key =  post1Ref.key
+                    
                 }
         })
     }
     
     @IBAction func create(sender: UIButton) {
         addUser()
-        
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if (segue.identifier == "btnSubmitSegue") {
+            var svc = segue.destinationViewController as! SkillsTableViewController;
+            svc.dataPassed = self.key
+            svc.secondDataPassed = self.email.text
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
