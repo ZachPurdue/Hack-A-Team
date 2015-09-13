@@ -306,17 +306,8 @@
                         <rect key="frame" x="0.0" y="64" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've been matched!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpx-Qp-4A8">
-                                <rect key="frame" x="117" y="143" width="367" height="42"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="367" id="Dt9-Au-2QY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ude-Ji-jcn">
-                                <rect key="frame" x="157" y="363" width="286" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ude-Ji-jcn">
+                                <rect key="frame" x="157" y="351" width="286" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="286" id="uK8-Hx-GSq"/>
                                 </constraints>
@@ -329,12 +320,23 @@
                                     <segue destination="g6v-vA-CUS" kind="show" id="bcE-V9-iGa"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've been matched!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpx-Qp-4A8">
+                                <rect key="frame" x="174" y="137" width="253" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="253" id="Dt9-Au-2QY"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="ETh-y1-XK3"/>
+                                    <constraint firstAttribute="height" constant="91" id="Nq9-Tg-Jyb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.49803921568627452" green="0.81568627450980391" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="ude-Ji-jcn" firstAttribute="centerX" secondItem="jUd-TZ-DUr" secondAttribute="centerX" id="1TL-c5-hTg"/>
                             <constraint firstItem="wpx-Qp-4A8" firstAttribute="centerX" secondItem="ude-Ji-jcn" secondAttribute="centerX" id="1vx-10-Zy1"/>
-                            <constraint firstItem="wpx-Qp-4A8" firstAttribute="top" secondItem="Z7m-9R-sV3" secondAttribute="bottom" constant="123" id="YXJ-bg-Kkn"/>
+                            <constraint firstItem="wpx-Qp-4A8" firstAttribute="top" secondItem="Z7m-9R-sV3" secondAttribute="bottom" constant="117" id="YXJ-bg-Kkn"/>
                             <constraint firstItem="7n5-7R-GM2" firstAttribute="top" secondItem="ude-Ji-jcn" secondAttribute="bottom" constant="158" id="xdq-ok-8Tl"/>
                         </constraints>
                     </view>
