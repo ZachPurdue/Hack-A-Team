@@ -16,6 +16,8 @@
 		26F919331BA48047009E9E1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F919321BA48047009E9E1A /* Images.xcassets */; };
 		26F919361BA48047009E9E1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F919341BA48047009E9E1A /* LaunchScreen.xib */; };
 		26F919421BA48048009E9E1A /* HackaTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F919411BA48048009E9E1A /* HackaTeamTests.swift */; };
+		3862DC0D1BA545C200FE5CAC /* zachprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3862DC0B1BA545C200FE5CAC /* zachprofile.png */; };
+		3862DC0E1BA545C200FE5CAC /* willprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3862DC0C1BA545C200FE5CAC /* willprofile.png */; };
 		3880F2E11BA5189D0012700C /* Hack-A-Team Logo120120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3880F2E01BA5189D0012700C /* Hack-A-Team Logo120120.png */; };
 		38A6BB6E1BA4FC06003DC8B0 /* mhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB651BA4FC06003DC8B0 /* mhacks.png */; };
 		38A6BB6F1BA4FC06003DC8B0 /* RAMHACKS.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB661BA4FC06003DC8B0 /* RAMHACKS.png */; };
@@ -54,6 +56,8 @@
 		26F9193B1BA48048009E9E1A /* HackaTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackaTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F919401BA48048009E9E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26F919411BA48048009E9E1A /* HackaTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTeamTests.swift; sourceTree = "<group>"; };
+		3862DC0B1BA545C200FE5CAC /* zachprofile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zachprofile.png; sourceTree = "<group>"; };
+		3862DC0C1BA545C200FE5CAC /* willprofile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = willprofile.png; sourceTree = "<group>"; };
 		3880F2E01BA5189D0012700C /* Hack-A-Team Logo120120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hack-A-Team Logo120120.png"; sourceTree = "<group>"; };
 		38A6BB651BA4FC06003DC8B0 /* mhacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhacks.png; sourceTree = "<group>"; };
 		38A6BB661BA4FC06003DC8B0 /* RAMHACKS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RAMHACKS.png; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 		26F919291BA48047009E9E1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3862DC0B1BA545C200FE5CAC /* zachprofile.png */,
+				3862DC0C1BA545C200FE5CAC /* willprofile.png */,
 				38A6BB651BA4FC06003DC8B0 /* mhacks.png */,
 				38A6BB661BA4FC06003DC8B0 /* RAMHACKS.png */,
 				38A6BB791BA509F6003DC8B0 /* purdueP.png */,
@@ -266,10 +272,12 @@
 				38A6BB6F1BA4FC06003DC8B0 /* RAMHACKS.png in Resources */,
 				38A6BB7A1BA509F6003DC8B0 /* purdueP.png in Resources */,
 				38A6BB741BA4FC06003DC8B0 /* calhacks.png in Resources */,
+				3862DC0D1BA545C200FE5CAC /* zachprofile.png in Resources */,
 				38A6BB6E1BA4FC06003DC8B0 /* mhacks.png in Resources */,
 				26F919311BA48047009E9E1A /* Main.storyboard in Resources */,
 				38A6BB711BA4FC06003DC8B0 /* hackthenorth.png in Resources */,
 				26F919361BA48047009E9E1A /* LaunchScreen.xib in Resources */,
+				3862DC0E1BA545C200FE5CAC /* willprofile.png in Resources */,
 				38A6BB721BA4FC06003DC8B0 /* vandy.png in Resources */,
 				26F919331BA48047009E9E1A /* Images.xcassets in Resources */,
 				38A6BB751BA4FC06003DC8B0 /* boilermake.png in Resources */,
