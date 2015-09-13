@@ -3,7 +3,7 @@
 This is an iOS app designed to match teamless users with similar interests, who are looking to join a team for a hackathon.
 
 Technologies used:
- - iOS
+ - iOS (swift & storyboarding)
  - Firebase
 
 
