@@ -413,7 +413,7 @@
         <!--Select Hackathon-->
         <scene sceneID="9Wn-YI-woE">
             <objects>
-                <viewController title="Select Hackathon" id="XAd-u6-4gt" sceneMemberID="viewController">
+                <viewController title="Select Hackathon" id="XAd-u6-4gt" customClass="HackathonViewController" customModule="HackaTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vVk-5f-tSs"/>
                         <viewControllerLayoutGuide type="bottom" id="qaW-Nf-NGg"/>
@@ -440,6 +440,9 @@
                                 <state key="normal" image="mhacks.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="mhacks:" destination="XAd-u6-4gt" eventType="touchUpInside" id="aeS-5b-N9m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Iw-zv-m8f">
                                 <rect key="frame" x="454" y="180" width="100" height="100"/>
@@ -450,6 +453,9 @@
                                 <state key="normal" backgroundImage="vandy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="vandyHacks:" destination="XAd-u6-4gt" eventType="touchUpInside" id="U3A-7i-8xI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ek-R9-9B6">
                                 <rect key="frame" x="454" y="50" width="100" height="100"/>
@@ -460,16 +466,9 @@
                                 <state key="normal" backgroundImage="hackthenorth.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xw8-1d-sMV">
-                                <rect key="frame" x="454" y="310" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="DsZ-Sj-43N"/>
-                                    <constraint firstAttribute="width" constant="100" id="rv0-zR-JtV"/>
-                                </constraints>
-                                <state key="normal" backgroundImage="wildhacks.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <connections>
+                                    <action selector="hackTheNorth:" destination="XAd-u6-4gt" eventType="touchUpInside" id="QpX-jQ-oz9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBv-9w-JfT">
                                 <rect key="frame" x="46" y="180" width="100" height="100"/>
@@ -480,6 +479,9 @@
                                 <state key="normal" backgroundImage="hackru.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="hackRU:" destination="XAd-u6-4gt" eventType="touchUpInside" id="DNB-2Y-40O"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pa2-vI-pzA">
                                 <rect key="frame" x="46" y="310" width="100" height="100"/>
@@ -490,6 +492,22 @@
                                 <state key="normal" backgroundImage="boilermake.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="boilerMake:" destination="XAd-u6-4gt" eventType="touchUpInside" id="hw2-Q5-1vA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xw8-1d-sMV">
+                                <rect key="frame" x="454" y="310" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="DsZ-Sj-43N"/>
+                                    <constraint firstAttribute="width" constant="100" id="rv0-zR-JtV"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="wildhacks.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="wildHacks:" destination="XAd-u6-4gt" eventType="touchUpInside" id="J8H-XR-Z9s"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -513,6 +531,14 @@
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <tabBarItem key="tabBarItem" title="Select Hackathon" id="gcB-UL-Ggh"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <connections>
+                        <outlet property="boilermake" destination="pa2-vI-pzA" id="Oi1-Mt-dJa"/>
+                        <outlet property="hackru" destination="gBv-9w-JfT" id="7FK-nJ-bQn"/>
+                        <outlet property="hackthenorth" destination="4ek-R9-9B6" id="ewA-m6-9Pd"/>
+                        <outlet property="mhacks" destination="KUF-F4-GJa" id="aNB-Ae-emE"/>
+                        <outlet property="vandyhacks" destination="5Iw-zv-m8f" id="bln-xc-GvW"/>
+                        <outlet property="wilhacks" destination="Xw8-1d-sMV" id="txk-7o-Jg6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Awo-7W-9VQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
