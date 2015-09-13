@@ -19,6 +19,11 @@
 		3862DC0D1BA545C200FE5CAC /* zachprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3862DC0B1BA545C200FE5CAC /* zachprofile.png */; };
 		3862DC0E1BA545C200FE5CAC /* willprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3862DC0C1BA545C200FE5CAC /* willprofile.png */; };
 		3880F2E11BA5189D0012700C /* Hack-A-Team Logo120120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3880F2E01BA5189D0012700C /* Hack-A-Team Logo120120.png */; };
+		389636FF1BA56D9600E642B1 /* devinterests.png in Resources */ = {isa = PBXBuildFile; fileRef = 389636FA1BA56D9600E642B1 /* devinterests.png */; };
+		389637001BA56D9600E642B1 /* finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 389636FB1BA56D9600E642B1 /* finish.png */; };
+		389637011BA56D9600E642B1 /* languages.png in Resources */ = {isa = PBXBuildFile; fileRef = 389636FC1BA56D9600E642B1 /* languages.png */; };
+		389637021BA56D9600E642B1 /* selecthackathon.png in Resources */ = {isa = PBXBuildFile; fileRef = 389636FD1BA56D9600E642B1 /* selecthackathon.png */; };
+		389637031BA56D9600E642B1 /* skillscheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 389636FE1BA56D9600E642B1 /* skillscheck.png */; };
 		38A6BB6E1BA4FC06003DC8B0 /* mhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB651BA4FC06003DC8B0 /* mhacks.png */; };
 		38A6BB6F1BA4FC06003DC8B0 /* RAMHACKS.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB661BA4FC06003DC8B0 /* RAMHACKS.png */; };
 		38A6BB701BA4FC06003DC8B0 /* bigred.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB671BA4FC06003DC8B0 /* bigred.png */; };
@@ -59,6 +64,11 @@
 		3862DC0B1BA545C200FE5CAC /* zachprofile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zachprofile.png; sourceTree = "<group>"; };
 		3862DC0C1BA545C200FE5CAC /* willprofile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = willprofile.png; sourceTree = "<group>"; };
 		3880F2E01BA5189D0012700C /* Hack-A-Team Logo120120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hack-A-Team Logo120120.png"; sourceTree = "<group>"; };
+		389636FA1BA56D9600E642B1 /* devinterests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = devinterests.png; sourceTree = "<group>"; };
+		389636FB1BA56D9600E642B1 /* finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finish.png; sourceTree = "<group>"; };
+		389636FC1BA56D9600E642B1 /* languages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = languages.png; sourceTree = "<group>"; };
+		389636FD1BA56D9600E642B1 /* selecthackathon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selecthackathon.png; sourceTree = "<group>"; };
+		389636FE1BA56D9600E642B1 /* skillscheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skillscheck.png; sourceTree = "<group>"; };
 		38A6BB651BA4FC06003DC8B0 /* mhacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhacks.png; sourceTree = "<group>"; };
 		38A6BB661BA4FC06003DC8B0 /* RAMHACKS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RAMHACKS.png; sourceTree = "<group>"; };
 		38A6BB671BA4FC06003DC8B0 /* bigred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigred.png; sourceTree = "<group>"; };
@@ -145,6 +155,11 @@
 				38A6BB6B1BA4FC06003DC8B0 /* calhacks.png */,
 				38A6BB6C1BA4FC06003DC8B0 /* boilermake.png */,
 				38A6BB6D1BA4FC06003DC8B0 /* wildhacks.png */,
+				389636FA1BA56D9600E642B1 /* devinterests.png */,
+				389636FB1BA56D9600E642B1 /* finish.png */,
+				389636FC1BA56D9600E642B1 /* languages.png */,
+				389636FD1BA56D9600E642B1 /* selecthackathon.png */,
+				389636FE1BA56D9600E642B1 /* skillscheck.png */,
 				26F9192A1BA48047009E9E1A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -271,6 +286,7 @@
 				38A6BB761BA4FC06003DC8B0 /* wildhacks.png in Resources */,
 				38A6BB6F1BA4FC06003DC8B0 /* RAMHACKS.png in Resources */,
 				38A6BB7A1BA509F6003DC8B0 /* purdueP.png in Resources */,
+				389637031BA56D9600E642B1 /* skillscheck.png in Resources */,
 				38A6BB741BA4FC06003DC8B0 /* calhacks.png in Resources */,
 				3862DC0D1BA545C200FE5CAC /* zachprofile.png in Resources */,
 				38A6BB6E1BA4FC06003DC8B0 /* mhacks.png in Resources */,
@@ -279,8 +295,12 @@
 				26F919361BA48047009E9E1A /* LaunchScreen.xib in Resources */,
 				3862DC0E1BA545C200FE5CAC /* willprofile.png in Resources */,
 				38A6BB721BA4FC06003DC8B0 /* vandy.png in Resources */,
+				389637011BA56D9600E642B1 /* languages.png in Resources */,
 				26F919331BA48047009E9E1A /* Images.xcassets in Resources */,
+				389637021BA56D9600E642B1 /* selecthackathon.png in Resources */,
+				389636FF1BA56D9600E642B1 /* devinterests.png in Resources */,
 				38A6BB751BA4FC06003DC8B0 /* boilermake.png in Resources */,
+				389637001BA56D9600E642B1 /* finish.png in Resources */,
 				3880F2E11BA5189D0012700C /* Hack-A-Team Logo120120.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

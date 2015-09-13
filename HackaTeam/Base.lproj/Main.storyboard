@@ -453,7 +453,7 @@
             <objects>
                 <tabBarController title="New Account" id="yzg-ZR-5dh" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="h8Z-7m-E84">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -774,7 +774,7 @@
         <image name="zachprofile.png" width="291" height="291"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rCP-0e-34w"/>
         <segue reference="oF6-wj-0hw"/>
+        <segue reference="DRs-Tu-IL3"/>
     </inferredMetricsTieBreakers>
 </document>
