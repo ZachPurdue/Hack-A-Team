@@ -210,9 +210,19 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Uct-zn-1pK" kind="show" id="rCP-0e-34w"/>
+                                    <action selector="signIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iYI-33-ds1"/>
+                                    <segue destination="Uct-zn-1pK" kind="show" identifier="SignInSegue" id="rCP-0e-34w"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error during log in. Please try again" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPA-HD-FuK">
+                                <rect key="frame" x="214" y="72" width="173" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="173" id="CCD-Oa-WFT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.49411764705882355" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -220,8 +230,10 @@
                             <constraint firstItem="K2V-sN-f1A" firstAttribute="trailing" secondItem="db8-mT-kNx" secondAttribute="trailing" id="0bc-iN-PvI"/>
                             <constraint firstItem="h1J-Tm-ntU" firstAttribute="top" secondItem="754-W4-y90" secondAttribute="bottom" constant="33" id="D4I-KE-oEp"/>
                             <constraint firstItem="754-W4-y90" firstAttribute="top" secondItem="K2V-sN-f1A" secondAttribute="bottom" constant="26" id="DP2-od-9Mt"/>
+                            <constraint firstItem="K2V-sN-f1A" firstAttribute="top" secondItem="PPA-HD-FuK" secondAttribute="bottom" constant="27" id="Gwc-ja-ara"/>
                             <constraint firstAttribute="bottom" secondItem="lzx-aG-G4V" secondAttribute="bottom" constant="21" id="Ih9-k1-6oo"/>
                             <constraint firstItem="K2V-sN-f1A" firstAttribute="leading" secondItem="db8-mT-kNx" secondAttribute="leading" id="PpA-2f-be1"/>
+                            <constraint firstItem="PPA-HD-FuK" firstAttribute="centerX" secondItem="db8-mT-kNx" secondAttribute="centerX" id="QaV-Je-Uat"/>
                             <constraint firstItem="db8-mT-kNx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="SDn-mf-tUH"/>
                             <constraint firstItem="lzx-aG-G4V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Tvn-yw-AEh"/>
                             <constraint firstItem="754-W4-y90" firstAttribute="trailing" secondItem="K2V-sN-f1A" secondAttribute="trailing" id="bbJ-jl-kUo"/>
@@ -231,10 +243,12 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FhA-pq-uN2" secondAttribute="bottom" constant="165" id="lFb-nv-kFF"/>
                             <constraint firstItem="FhA-pq-uN2" firstAttribute="top" secondItem="h1J-Tm-ntU" secondAttribute="bottom" constant="53" id="mkM-CQ-WO0"/>
                             <constraint firstItem="K2V-sN-f1A" firstAttribute="leading" secondItem="754-W4-y90" secondAttribute="leading" id="mwK-WF-2aD"/>
+                            <constraint firstItem="PPA-HD-FuK" firstAttribute="top" secondItem="db8-mT-kNx" secondAttribute="bottom" constant="25" id="tog-sP-8kR"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="email" destination="K2V-sN-f1A" id="dyX-er-quu"/>
+                        <outlet property="error" destination="PPA-HD-FuK" id="TP7-za-OJQ"/>
                         <outlet property="password" destination="754-W4-y90" id="GDR-LU-4hW"/>
                     </connections>
                 </viewController>
