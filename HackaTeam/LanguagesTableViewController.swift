@@ -68,8 +68,7 @@ class LanguagesTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         if let boolstatus = storage[langs[indexPath.row]] {
-            //println(boolstatus)
-            //println(indexPath.row)
+
             storage[langs[indexPath.row]] = !boolstatus
             
             tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)

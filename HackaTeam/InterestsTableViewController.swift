@@ -68,8 +68,7 @@ class InterestsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         if let boolstatus = storage[interests[indexPath.row]] {
-            println(boolstatus)
-            println(indexPath.row)
+
             storage[interests[indexPath.row]] = !boolstatus
             
             tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)

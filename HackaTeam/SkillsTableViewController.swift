@@ -69,8 +69,7 @@ class SkillsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         if let boolstatus = storage[skills[indexPath.row]] {
-            println(boolstatus)
-            println(indexPath.row)
+
             storage[skills[indexPath.row]] = !boolstatus
             
             tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
