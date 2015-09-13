@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		269DBCD61BA4CCA80016D606 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269DBCD51BA4CCA80016D606 /* SignUpViewController.swift */; };
 		269DBCDC1BA508F00016D606 /* HackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269DBCDB1BA508F00016D606 /* HackathonViewController.swift */; };
+		269DBCDE1BA517D00016D606 /* InterestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269DBCDD1BA517D00016D606 /* InterestsTableViewController.swift */; };
 		26F9192C1BA48047009E9E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F9192B1BA48047009E9E1A /* AppDelegate.swift */; };
 		26F9192E1BA48047009E9E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F9192D1BA48047009E9E1A /* ViewController.swift */; };
 		26F919311BA48047009E9E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F9192F1BA48047009E9E1A /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		269DBCD51BA4CCA80016D606 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		269DBCDB1BA508F00016D606 /* HackathonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackathonViewController.swift; sourceTree = "<group>"; };
+		269DBCDD1BA517D00016D606 /* InterestsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsTableViewController.swift; sourceTree = "<group>"; };
 		26F919261BA48047009E9E1A /* HackaTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackaTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F9192A1BA48047009E9E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26F9192B1BA48047009E9E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				26F9192D1BA48047009E9E1A /* ViewController.swift */,
 				269DBCDB1BA508F00016D606 /* HackathonViewController.swift */,
 				26F9192F1BA48047009E9E1A /* Main.storyboard */,
+				269DBCDD1BA517D00016D606 /* InterestsTableViewController.swift */,
 				269DBCD51BA4CCA80016D606 /* SignUpViewController.swift */,
 				26F919321BA48047009E9E1A /* Images.xcassets */,
 				26F919341BA48047009E9E1A /* LaunchScreen.xib */,
@@ -321,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269DBCDE1BA517D00016D606 /* InterestsTableViewController.swift in Sources */,
 				269DBCDC1BA508F00016D606 /* HackathonViewController.swift in Sources */,
 				269DBCD61BA4CCA80016D606 /* SignUpViewController.swift in Sources */,
 				26F9192E1BA48047009E9E1A /* ViewController.swift in Sources */,
