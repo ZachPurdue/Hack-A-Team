@@ -24,6 +24,7 @@
 		38A6BB751BA4FC06003DC8B0 /* boilermake.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB6C1BA4FC06003DC8B0 /* boilermake.png */; };
 		38A6BB761BA4FC06003DC8B0 /* wildhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB6D1BA4FC06003DC8B0 /* wildhacks.png */; };
 		38A6BB7A1BA509F6003DC8B0 /* purdueP.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB791BA509F6003DC8B0 /* purdueP.png */; };
+		38A6BB801BA50E86003DC8B0 /* Hack-A-Team Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB7F1BA50E86003DC8B0 /* Hack-A-Team Logo.png */; };
 		77D1C6558EBE3BDE210A48C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC35465977FE331C97E5637A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		38A6BB6C1BA4FC06003DC8B0 /* boilermake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boilermake.png; sourceTree = "<group>"; };
 		38A6BB6D1BA4FC06003DC8B0 /* wildhacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wildhacks.png; sourceTree = "<group>"; };
 		38A6BB791BA509F6003DC8B0 /* purdueP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purdueP.png; sourceTree = "<group>"; };
+		38A6BB7F1BA50E86003DC8B0 /* Hack-A-Team Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hack-A-Team Logo.png"; sourceTree = "<group>"; };
 		45B7ED5A37A615C485AEC7B5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C51C2F86ECDBC746D517C503 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FC35465977FE331C97E5637A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 				38A6BB681BA4FC06003DC8B0 /* hackthenorth.png */,
 				38A6BB691BA4FC06003DC8B0 /* vandy.png */,
 				38A6BB6A1BA4FC06003DC8B0 /* hackru.png */,
+				38A6BB7F1BA50E86003DC8B0 /* Hack-A-Team Logo.png */,
 				38A6BB6B1BA4FC06003DC8B0 /* calhacks.png */,
 				38A6BB6C1BA4FC06003DC8B0 /* boilermake.png */,
 				38A6BB6D1BA4FC06003DC8B0 /* wildhacks.png */,
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A6BB731BA4FC06003DC8B0 /* hackru.png in Resources */,
+				38A6BB801BA50E86003DC8B0 /* Hack-A-Team Logo.png in Resources */,
 				38A6BB701BA4FC06003DC8B0 /* bigred.png in Resources */,
 				38A6BB761BA4FC06003DC8B0 /* wildhacks.png in Resources */,
 				38A6BB6F1BA4FC06003DC8B0 /* RAMHACKS.png in Resources */,
