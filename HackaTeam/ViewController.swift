@@ -43,6 +43,13 @@ class ViewController: UIViewController {
         self.loggedIn = false
         return performSegue
     }
+    @IBAction func about(sender: UIButton) {
+        performSegueWithIdentifier("AboutSegue", sender: self)
+    }
+    
+    @IBAction func newAccount(sender: UIButton) {
+        performSegueWithIdentifier("NewAccountSegue", sender: self)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
