@@ -25,6 +25,7 @@
 		389637011BA56D9600E642B1 /* languages.png in Resources */ = {isa = PBXBuildFile; fileRef = 389636FC1BA56D9600E642B1 /* languages.png */; };
 		389637021BA56D9600E642B1 /* selecthackathon.png in Resources */ = {isa = PBXBuildFile; fileRef = 389636FD1BA56D9600E642B1 /* selecthackathon.png */; };
 		389637031BA56D9600E642B1 /* skillscheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 389636FE1BA56D9600E642B1 /* skillscheck.png */; };
+		389637051BA598FA00E642B1 /* LanguagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389637041BA598FA00E642B1 /* LanguagesTableViewController.swift */; };
 		38A6BB6E1BA4FC06003DC8B0 /* mhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB651BA4FC06003DC8B0 /* mhacks.png */; };
 		38A6BB6F1BA4FC06003DC8B0 /* RAMHACKS.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB661BA4FC06003DC8B0 /* RAMHACKS.png */; };
 		38A6BB701BA4FC06003DC8B0 /* bigred.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6BB671BA4FC06003DC8B0 /* bigred.png */; };
@@ -71,6 +72,7 @@
 		389636FC1BA56D9600E642B1 /* languages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = languages.png; sourceTree = "<group>"; };
 		389636FD1BA56D9600E642B1 /* selecthackathon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selecthackathon.png; sourceTree = "<group>"; };
 		389636FE1BA56D9600E642B1 /* skillscheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skillscheck.png; sourceTree = "<group>"; };
+		389637041BA598FA00E642B1 /* LanguagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguagesTableViewController.swift; sourceTree = "<group>"; };
 		38A6BB651BA4FC06003DC8B0 /* mhacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhacks.png; sourceTree = "<group>"; };
 		38A6BB661BA4FC06003DC8B0 /* RAMHACKS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RAMHACKS.png; sourceTree = "<group>"; };
 		38A6BB671BA4FC06003DC8B0 /* bigred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigred.png; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				269DBCDB1BA508F00016D606 /* HackathonViewController.swift */,
 				26F9192F1BA48047009E9E1A /* Main.storyboard */,
 				269DBCDD1BA517D00016D606 /* InterestsTableViewController.swift */,
+				389637041BA598FA00E642B1 /* LanguagesTableViewController.swift */,
 				269DBCD51BA4CCA80016D606 /* SignUpViewController.swift */,
 				26F919321BA48047009E9E1A /* Images.xcassets */,
 				26F919341BA48047009E9E1A /* LaunchScreen.xib */,
@@ -355,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389637051BA598FA00E642B1 /* LanguagesTableViewController.swift in Sources */,
 				269DBCDE1BA517D00016D606 /* InterestsTableViewController.swift in Sources */,
 				269DBCDC1BA508F00016D606 /* HackathonViewController.swift in Sources */,
 				269DBCD61BA4CCA80016D606 /* SignUpViewController.swift in Sources */,

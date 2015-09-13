@@ -52,13 +52,6 @@ class SignUpViewController: UIViewController {
         addUser()
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        if (segue.identifier == "btnSubmitSegue") {
-            var svc = segue.destinationViewController as! SkillsTableViewController;
-            svc.dataPassed = self.key
-            svc.secondDataPassed = self.email.text
-        }
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -267,7 +267,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" textLabel="tz7-4e-kSe" style="IBUITableViewCellStyleDefault" id="wmu-3b-3Kg">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="interestIdentifier" textLabel="tz7-4e-kSe" style="IBUITableViewCellStyleDefault" id="wmu-3b-3Kg">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wmu-3b-3Kg" id="Nic-qw-0QY">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -412,13 +412,13 @@
         <!--Languages Checklist-->
         <scene sceneID="90o-sn-13J">
             <objects>
-                <tableViewController id="NI1-eO-aFT" sceneMemberID="viewController">
+                <tableViewController id="NI1-eO-aFT" customClass="LanguagesTableViewController" customModule="HackaTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="OjN-Qi-ZXH">
                         <rect key="frame" x="0.0" y="64" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="checkmark" indentationWidth="10" textLabel="ZXG-lk-czR" style="IBUITableViewCellStyleDefault" id="YVV-g2-bnP">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="langIdentifier" textLabel="ZXG-lk-czR" style="IBUITableViewCellStyleDefault" id="YVV-g2-bnP">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YVV-g2-bnP" id="j9O-VK-jlF">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -454,7 +454,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="checkmark" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="cVn-zl-HIY" style="IBUITableViewCellStyleDefault" id="8fj-lR-Dak">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="checkmark" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="skillIdentifier" textLabel="cVn-zl-HIY" style="IBUITableViewCellStyleDefault" id="8fj-lR-Dak">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8fj-lR-Dak" id="tG7-gV-U0w">
                                     <autoresizingMask key="autoresizingMask"/>
