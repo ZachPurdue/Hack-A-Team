@@ -287,7 +287,7 @@
                             <outlet property="delegate" destination="lth-2R-ZfJ" id="54c-ed-nfY"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Development Interests" id="bsL-Wj-IBe"/>
+                    <tabBarItem key="tabBarItem" title="Development Interests" image="devinterests.png" id="bsL-Wj-IBe"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qep-a0-0xa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -306,8 +306,8 @@
                         <rect key="frame" x="0.0" y="64" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You've been matched!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpx-Qp-4A8">
-                                <rect key="frame" x="117" y="143" width="367" height="74"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've been matched!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpx-Qp-4A8">
+                                <rect key="frame" x="117" y="143" width="367" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="367" id="Dt9-Au-2QY"/>
                                 </constraints>
@@ -338,7 +338,7 @@
                             <constraint firstItem="7n5-7R-GM2" firstAttribute="top" secondItem="ude-Ji-jcn" secondAttribute="bottom" constant="158" id="xdq-ok-8Tl"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Finish" id="xPm-63-ahI"/>
+                    <tabBarItem key="tabBarItem" title="Finish" image="finish.png" id="xPm-63-ahI"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1to-UA-UTt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -404,7 +404,7 @@
                             <outlet property="delegate" destination="NI1-eO-aFT" id="KgT-xG-3nP"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Languages Checklist" id="Da1-Lu-cyK"/>
+                    <tabBarItem key="tabBarItem" title="Languages Checklist" image="languages.png" id="Da1-Lu-cyK"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WhI-q1-gZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -440,7 +440,7 @@
                             <outlet property="delegate" destination="6y5-66-MLf" id="izJ-vx-YQc"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Skills Checklist" id="9zG-nm-VMd"/>
+                    <tabBarItem key="tabBarItem" title="Skills Checklist" image="skillscheck.png" id="9zG-nm-VMd"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </tableViewController>
@@ -684,7 +684,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <tabBarItem key="tabBarItem" title="Select Hackathon" id="gcB-UL-Ggh"/>
+                    <tabBarItem key="tabBarItem" title="Select Hackathon" image="selecthackathon.png" id="gcB-UL-Ggh"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Awo-7W-9VQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -735,7 +735,7 @@
                             <constraint firstItem="n2b-um-qmP" firstAttribute="top" secondItem="QyL-W4-jHz" secondAttribute="bottom" constant="154" id="aeo-qT-bNg"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Finish" id="NtJ-v1-bCh"/>
+                    <tabBarItem key="tabBarItem" title="Finish" image="finish.png" id="NtJ-v1-bCh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JSS-HT-X9O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -765,9 +765,14 @@
     </scenes>
     <resources>
         <image name="boilermake.png" width="100" height="100"/>
+        <image name="devinterests.png" width="30" height="30"/>
+        <image name="finish.png" width="30" height="30"/>
         <image name="hackru.png" width="100" height="100"/>
         <image name="hackthenorth.png" width="100" height="100"/>
+        <image name="languages.png" width="30" height="30"/>
         <image name="mhacks.png" width="100" height="100"/>
+        <image name="selecthackathon.png" width="30" height="30"/>
+        <image name="skillscheck.png" width="30" height="30"/>
         <image name="vandy.png" width="100" height="100"/>
         <image name="wildhacks.png" width="100" height="100"/>
         <image name="willprofile.png" width="291" height="291"/>
