@@ -11,36 +11,65 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Zach Perry &amp; William Huang. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
-                    <rect key="frame" x="20" y="444" width="440" height="21"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Zach Perry &amp; William Huang." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="413" width="440" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hack-A-Team" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
                     <rect key="frame" x="20" y="22" width="441" height="43"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purdueP.png" translatesAutoresizingMaskIntoConstraints="NO" id="14H-ek-Wsz">
-                    <rect key="frame" x="115" y="180" width="250" height="120"/>
+                    <rect key="frame" x="189" y="212" width="102" height="55"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="120" id="BaC-cf-j05"/>
-                        <constraint firstAttribute="width" constant="250" id="Uot-ta-p17"/>
+                        <constraint firstAttribute="width" constant="102" id="5Ci-EG-uLZ"/>
+                        <constraint firstAttribute="height" constant="55" id="iyH-yr-lu8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3t-CQ-JON">
+                    <rect key="frame" x="153" y="442" width="174" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="174" id="xAJ-av-ZoS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mhacks.png" translatesAutoresizingMaskIntoConstraints="NO" id="BFa-ET-GlR">
+                    <rect key="frame" x="189" y="82" width="102" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="CuZ-Ar-buD"/>
+                        <constraint firstAttribute="width" constant="102" id="NO9-tn-XKC"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hack-A-Team Logo120120.png" translatesAutoresizingMaskIntoConstraints="NO" id="h12-FC-mnH">
+                    <rect key="frame" x="189" y="292" width="102" height="102"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="102" id="bXm-2f-dzB"/>
+                        <constraint firstAttribute="height" constant="102" id="c8W-cX-hai"/>
                     </constraints>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.49019607843137253" green="0.81568627450980391" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottom" multiplier="1/3" constant="-116.5" id="5cJ-9S-tgC"/>
+                <constraint firstItem="y3t-CQ-JON" firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="HnB-EE-0zW"/>
+                <constraint firstItem="14H-ek-Wsz" firstAttribute="top" secondItem="BFa-ET-GlR" secondAttribute="bottom" constant="30" id="Ir5-Lq-rAG"/>
                 <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
-                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="15" id="Kzo-t9-V3l"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="46" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstItem="14H-ek-Wsz" firstAttribute="leading" secondItem="h12-FC-mnH" secondAttribute="leading" id="NJy-Dp-8PD"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
-                <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="14H-ek-Wsz" secondAttribute="bottom" constant="144" id="b3V-OE-jtj"/>
+                <constraint firstItem="y3t-CQ-JON" firstAttribute="top" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="8" symbolic="YES" id="a0s-iA-5eu"/>
+                <constraint firstItem="14H-ek-Wsz" firstAttribute="leading" secondItem="BFa-ET-GlR" secondAttribute="leading" id="aws-nU-lh1"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="h12-FC-mnH" secondAttribute="bottom" constant="19" id="cJK-Gf-7gn"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
-                <constraint firstItem="14H-ek-Wsz" firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="sv1-Ch-BJc"/>
+                <constraint firstItem="h12-FC-mnH" firstAttribute="top" secondItem="14H-ek-Wsz" secondAttribute="bottom" constant="25" id="hNx-RP-Rfc"/>
+                <constraint firstItem="BFa-ET-GlR" firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="hXZ-fp-pTo"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -48,6 +77,8 @@
         </view>
     </objects>
     <resources>
+        <image name="Hack-A-Team Logo120120.png" width="120" height="120"/>
+        <image name="mhacks.png" width="100" height="100"/>
         <image name="purdueP.png" width="1024" height="547"/>
     </resources>
 </document>
