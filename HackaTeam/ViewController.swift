@@ -14,20 +14,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
 
 
-    @IBAction func signIn(sender: UIButton) {
-        let ref = Firebase(url: "https://hackateam.firebaseio.com/")
-        ref.authUser(email.text, password: password.text,
-            withCompletionBlock: { error, authData in
-                if error != nil {
-                    // There was an error logging in to this account
-                    
-
-                } else {
-                    // We are now logged in
-                    print("Log in successful")
-                }
-        })
-    }
+//    @IBAction func signIn(sender: UIButton) {
+//        let ref = Firebase(url: "https://hackateam.firebaseio.com/")
+//        ref.authUser(email.text, password: password.text,
+//            withCompletionBlock: { error, authData in
+//                if error != nil {
+//                    // There was an error logging in to this account
+//                    
+//
+//                } else {
+//                    // We are now logged in
+//                    print("Log in successful")
+//                }
+//        })
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

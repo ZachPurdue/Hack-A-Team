@@ -10,31 +10,27 @@ import Firebase
 import UIKit
 
 class HackathonViewController: UIViewController {
-    
-    @IBAction func mhacks(sender: UIButton) {
-        
-    }
 
-    @IBAction func hackTheNorth(sender: UIButton) {
-        
+    @IBAction func mhacks(sender: UIButton) {
     }
     
     @IBAction func hackRU(sender: UIButton) {
-        
     }
-    
-    @IBAction func vandyHacks(sender: UIButton) {
-        
-    }
+
     
     @IBAction func boilerMake(sender: UIButton) {
-        
     }
     
-    @IBAction func wildHacks(sender: UIButton) {
-        
+    @IBAction func hackTheNorth(sender: UIButton) {
     }
     
+    
+    @IBAction func vandyHacks(sender: UIButton) {
+    }
+    
+    
+    @IBAction func wildHacks(sender: AnyObject) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
