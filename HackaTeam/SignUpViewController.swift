@@ -37,7 +37,7 @@ class SignUpViewController: UIViewController {
                     let postRef = ref.childByAppendingPath("users")
                     let post1 = ["email": self.email.text, "name": self.name.text, "school": self.school.text]
                     let post1Ref = postRef.childByAutoId()
-                    post1Ref.setValue(post1)
+                    post1Ref.updateChildValues(post1)
                 }
         })
     }
